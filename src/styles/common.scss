@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    letter-spacing: 2px;
+    color: crimson;
+  }
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  overflow: hidden;
+}
+
+.active {
+  color: crimson;
+  border-bottom: 1px solid crimson;
+}

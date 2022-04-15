@@ -1,0 +1,43 @@
+.rock-paper-scissors-container {
+  @include flex-center-column();
+
+  .game-choice-container {
+    width: 400px;
+
+    .choice-wrapper {
+      display: flex;
+
+      .label {
+        margin-right: 15px;
+      }
+    }
+
+    .winner-wrapper {
+      font-size: 2em;
+      position: absolute;
+      left: 24%;
+      top: 45%;
+    }
+  }
+
+  .game-btn-wrapper {
+    @include flex-center();
+    gap: 25px;
+
+    svg {
+      font-size: 2.5em;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        color: green;
+      }
+    }
+  }
+
+  .submit-reset-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
+}

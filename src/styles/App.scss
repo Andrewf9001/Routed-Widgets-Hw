@@ -1,0 +1,14 @@
+@import "./helpers/variables.scss";
+@import "./helpers/mixins.scss";
+@import "./common.scss";
+@import "./navigation/Navbar.scss";
+
+@import "./pages/Home.scss";
+@import "./pages/PhotoTransformer.scss";
+@import "./pages/ImageGallery.scss";
+@import "./pages/Capitalize.scss";
+@import "./pages/TruncateWords.scss";
+@import "./pages/RandomHex.scss";
+@import "./pages/RockPaperScissors.scss";
+@import "./pages/box-shadow/BoxShadow.scss";
+@import "./pages/box-shadow/RgbSlider.scss";

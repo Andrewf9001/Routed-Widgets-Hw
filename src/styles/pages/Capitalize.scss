@@ -1,0 +1,36 @@
+.capitalize-container {
+  @include flex-center();
+  width: 50%;
+
+  .capitalize-form-wrapper {
+    width: 80%;
+
+    .name-wrapper {
+      @include flex-center();
+      padding: 10px;
+
+      label {
+        font-size: 1.5em;
+        width: 35%;
+      }
+
+      input {
+        font-size: 1.2em;
+        width: 100%;
+        height: 20px;
+      }
+    }
+
+    .cap-buttons-wrapper {
+      @include flex-center();
+      gap: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .full-name {
+    font-size: 1.5em;
+    position: absolute;
+    right: 30%;
+  }
+}
